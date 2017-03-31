@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebToolbelt", "WebToolbelt\WebToolbelt.csproj", "{78148EE6-562C-4CAF-AD60-6739DC6F71F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebToolbelt.Services", "WebToolbelt.Services\WebToolbelt.Services.csproj", "{903C89B5-FAF7-4B34-AEC0-F6DF22A1374D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebToolbelt.Entities", "WebToolbelt.Entities\WebToolbelt.Entities.csproj", "{DDE1B4D1-312B-4430-8D9C-3746C090E47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebToolbelt.DAL", "WebToolbelt.DAL\WebToolbelt.DAL.csproj", "{21486C66-F300-40DB-8F36-F867D276D5D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{78148EE6-562C-4CAF-AD60-6739DC6F71F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78148EE6-562C-4CAF-AD60-6739DC6F71F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78148EE6-562C-4CAF-AD60-6739DC6F71F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903C89B5-FAF7-4B34-AEC0-F6DF22A1374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903C89B5-FAF7-4B34-AEC0-F6DF22A1374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903C89B5-FAF7-4B34-AEC0-F6DF22A1374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903C89B5-FAF7-4B34-AEC0-F6DF22A1374D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE1B4D1-312B-4430-8D9C-3746C090E47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE1B4D1-312B-4430-8D9C-3746C090E47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE1B4D1-312B-4430-8D9C-3746C090E47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE1B4D1-312B-4430-8D9C-3746C090E47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21486C66-F300-40DB-8F36-F867D276D5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21486C66-F300-40DB-8F36-F867D276D5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21486C66-F300-40DB-8F36-F867D276D5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21486C66-F300-40DB-8F36-F867D276D5D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
